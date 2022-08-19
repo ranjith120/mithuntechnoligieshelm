@@ -7,7 +7,7 @@ pipeline{
 	stage('GetCode'){
             steps{
 		git branch: 'main',
-                url: ''
+                url: 'https://github.com/ranjith120/mithuntechnoligieshelm.git'
             }
          }        
 	stage('Build'){
